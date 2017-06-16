@@ -1,0 +1,17 @@
+[
+	  {
+	    "keys": ["ctrl+shift+g"],
+	    "command": "open_terminal_project_folder",
+	    "args": {
+	      "parameters": ["-T", "Working in directory %CWD%"]
+	    }
+	  },
+	  {
+	    "keys": ["ctrl+."],
+	    "command": "restore_layout"
+	  },
+	{ "keys": ["f1"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+	{ "keys": ["ctrl+alt+space"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
+	{ "keys": ["shift+"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
+	{ "keys": ["shift+"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
+]

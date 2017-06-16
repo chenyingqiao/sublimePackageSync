@@ -1,0 +1,80 @@
+{
+    "connections": {
+        /**
+         * "Connection name": {         // Connection name, used in menu (Display name)
+         *     "database" : "DATABASE",
+         *     "host"     : "HOSTNAME",
+         *     "port"     : "PORT",
+         *     "type"     : "pgsql",    // SGDB to use: (mysql, pgsql, oracle, vertica)
+         *     "username" : "USERNAME",
+         *     "password" : null        // (if you are using postgresql, you must setup a pgpass file and set it to null)
+         *     "encoding" : null        // Your DB encodings. Default: utf-8
+         * },
+         */
+        
+          "kn_erp_db": {         // Connection name, used in menu (Display name)
+              "database" : "kn_erp_db",
+              "host"     : "localhost",
+              "port"     : "3306",
+              "type"     : "mysql",    // SGDB to use: (mysql, pgsql, oracle, vertica)
+              "username" : "root",
+              "password" : "lerko",        // (if you are using postgresql, you must setup a pgpass file and set it to null)
+              "encoding" :  "gbk"
+          },
+          "zhangyue_erp_dev": {         // Connection name, used in menu (Display name)
+              "database" : "zhangyue_erp_dev",
+              "host"     : "localhost",
+              "port"     : "3306",
+              "type"     : "mysql",    // SGDB to use: (mysql, pgsql, oracle, vertica)
+              "username" : "root",
+              "password" : "lerko",        // (if you are using postgresql, you must setup a pgpass file and set it to null)
+              "encoding" :  "gbk"
+          },
+          // "kn_erp_db_online": {         // Connection name, used in menu (Display name)
+          //     "database" : "kn_erp_db",
+          //     "host"     : "52.69.14.73",
+          //     "port"     : "3306",
+          //     "type"     : "mysql",    // SGDB to use: (mysql, pgsql, oracle, vertica)
+          //     "username" : "root",
+          //     "password" : "sok12345",        // (if you are using postgresql, you must setup a pgpass file and set it to null)
+          //     "encoding" :  "gbk"
+          // },
+          "kn_erp_db_en": {         // Connection name, used in menu (Display name)
+              "database" : "kn_erp_db_en",
+              "host"     : "localhost",
+              "port"     : "3306",
+              "type"     : "mysql",    // SGDB to use: (mysql, pgsql, oracle, vertica)
+              "username" : "root",
+              "password" : "lerko",        // (if you are using postgresql, you must setup a pgpass file and set it to null)
+              "encoding" :  "gbk"
+          },
+          "blog": {         // Connection name, used in menu (Display name)
+              "database" : "blog",
+              "host"     : "localhost",
+              "port"     : "3306",
+              "type"     : "mysql",    // SGDB to use: (mysql, pgsql, oracle, vertica)
+              "username" : "root",
+              "password" : "lerko",        // (if you are using postgresql, you must setup a pgpass file and set it to null)
+              "encoding" :  "gbk"
+          },
+          "amazon_video": {         // Connection name, used in menu (Display name)
+              "database" : "thinkcmf",
+              "host"     : "localhost",
+              "port"     : "3306",
+              "type"     : "mysql",    // SGDB to use: (mysql, pgsql, oracle, vertica)
+              "username" : "root",
+              "password" : "lerko",        // (if you are using postgresql, you must setup a pgpass file and set it to null)
+              "encoding" :  "gbk"
+          },
+          "phero": {         // Connection name, used in menu (Display name)
+              "database" : "phero",
+              "host"     : "localhost",
+              "port"     : "3306",
+              "type"     : "mysql",    // SGDB to use: (mysql, pgsql, oracle, vertica)
+              "username" : "root",
+              "password" : "lerko",        // (if you are using postgresql, you must setup a pgpass file and set it to null)
+              "encoding" :  "gbk"
+          },
+    },
+    "default": null
+}

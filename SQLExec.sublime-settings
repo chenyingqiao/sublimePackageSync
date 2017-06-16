@@ -1,0 +1,27 @@
+{
+    "sql_exec.debug": false,
+    "sql_exec.commands": {
+        "mysql"  : "mysql",
+        "pgsql"  : "psql",
+        "oracle" : "sqlplus",
+        "vertica": "vsql",
+    },
+    "connections": {
+    	"localhost-kn_erp_db": {
+                                 "type"    : "mysql",
+                                 "host"    : "127.0.0.1",
+                                 "port"    : 3306,
+                                 "username": "root",
+                                 "password": "lerko",
+                                 "database": "kn_erp_db"
+                             },
+                  "localhost-kn_erp_db2": {
+                                 "type"    : "mysql",
+                                 "host"    : "127.0.0.1",
+                                 "port"    : 3306,
+                                 "username": "root",
+                                 "password": "lerko",
+                                 "database": "kn_erp_db2"
+                             }
+    }
+}
