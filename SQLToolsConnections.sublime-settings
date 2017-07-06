@@ -75,6 +75,24 @@
               "password" : "lerko",        // (if you are using postgresql, you must setup a pgpass file and set it to null)
               "encoding" :  "gbk"
           },
+          "magento": {         // Connection name, used in menu (Display name)
+              "database" : "magento",
+              "host"     : "localhost",
+              "port"     : "3306",
+              "type"     : "mysql",    // SGDB to use: (mysql, pgsql, oracle, vertica)
+              "username" : "root",
+              "password" : "lerko",        // (if you are using postgresql, you must setup a pgpass file and set it to null)
+              "encoding" :  "gbk"
+          },
+          "yg52": {         // Connection name, used in menu (Display name)
+              "database" : "yg52",
+              "host"     : "localhost",
+              "port"     : "3306",
+              "type"     : "mysql",    // SGDB to use: (mysql, pgsql, oracle, vertica)
+              "username" : "root",
+              "password" : "lerko",        // (if you are using postgresql, you must setup a pgpass file and set it to null)
+              "encoding" :  "gbk"
+          },
     },
     "default": null
 }
